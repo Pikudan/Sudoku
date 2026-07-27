@@ -1,0 +1,15 @@
+.venv/
+data/*.csv
+runs/
+results/
+results_*_new/
+cache/
+__pycache__/
+*.pyc
+.DS_Store
+data_real/
+results_real/
+diff_vs_original.patch
+
+# личный разбор статьи, не часть сдачи
+paper_ru.md

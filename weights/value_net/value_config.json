@@ -1,0 +1,13 @@
+{
+  "d": 96,
+  "args": {
+    "train_csv": "data/sudoku_train.csv",
+    "out_dir": "runs/value_net",
+    "steps": 2000,
+    "batch_size": 128,
+    "lr": 0.0003,
+    "d": 96,
+    "max_train_rows": 20000,
+    "seed": 0
+  }
+}

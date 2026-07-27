@@ -1,0 +1,12 @@
+# Minimal deps to run infer.py (baseline + all improvements).
+# Install:  pip install -r requirements-infer.txt
+# Works on CPU / Apple MPS / CUDA. (The original requirements.txt pins a CUDA-only
+# torch build; this uses a normal torch wheel so it runs anywhere.)
+torch
+transformers==4.37.2
+datasets==2.14.7
+accelerate==0.27.2
+peft==0.6.0
+numpy<2
+importlib_metadata
+matplotlib          # нужен только для scripts/plot_results.py
